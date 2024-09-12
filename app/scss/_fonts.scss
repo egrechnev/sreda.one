@@ -1,0 +1,37 @@
+/* PT Root UI */
+@font-face {
+  font-family: "PTRootUI";
+  src: url("../fonts/PT_Root_UI_Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  /* font-display: swap; */
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "PTRootUI";
+  src: url("../fonts/PT_Root_UI_Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  /* font-display: swap; */
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "PTRootUI";
+  src: url("../fonts/PT_Root_UI_Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  /* font-display: swap; */
+  font-display: fallback;
+}
+
+/* Gilroy */
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Extrabold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+  /* font-display: swap; */
+  font-display: fallback;
+}

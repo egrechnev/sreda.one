@@ -1,0 +1,119 @@
+@import "vars";
+
+
+/*==========  Desktop First  ==========*/
+
+@media screen and (max-width: 1199px){
+    .content-landing,
+    .content-final,
+    .info-text-wrapper,
+    .trigger,
+    .header,
+    .page-nav{
+        display: none;
+    }
+
+    .info{
+        top: 0;
+        bottom: 0;
+        max-width: 510px;
+        height: 370px;
+    }
+
+    .attention{
+        display: flex;
+    }
+
+
+
+    
+    .bg-landing-wrapper,
+    .info,
+    .attention{
+        display: none;
+    }
+
+    .mobile-wrapper{
+        display: block;
+    }
+
+}
+
+@media screen and (max-width: 767px){
+
+}
+
+@media screen and (max-width: 575px){
+    .ie .info{
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 410px){
+    // .mobile-text br{
+    //     display: none;
+    // }
+    .mobile-text{
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 319px){
+    .bg-landing-wrapper,
+    .info,
+    .attention{
+        display: flex!important;
+    }
+
+    .info{
+        height: auto;
+        border-radius: 0;
+    }
+
+    .mobile-wrapper{
+        display: none!important;
+    }
+}
+
+// ≥1200px
+@include media-breakpoint-down(lg) {
+
+}
+
+// ≥992px
+@include media-breakpoint-down(md) {
+
+}
+
+// ≥768px
+@include media-breakpoint-down(sm) {
+
+}
+
+// ≥576px
+@include media-breakpoint-down(xs) {
+
+}
+
+
+/*==========  Mobile First  ==========*/
+
+// ≤576px
+@include media-breakpoint-up(sm) {
+
+}
+
+// ≤768px
+@include media-breakpoint-up(md) {
+
+}
+
+// ≤992px
+@include media-breakpoint-up(lg) {
+
+}
+
+// ≤1200px
+@include media-breakpoint-up(xl) {
+	
+}
